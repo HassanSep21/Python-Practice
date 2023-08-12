@@ -8,6 +8,7 @@ key = char.copy()
 random.shuffle(key)
 
 # encyption
+
 plain_txt = input("Enter yout text: ")
 cypher_txt = ""
 
@@ -18,6 +19,7 @@ for letter in plain_txt:
 print(f"Encrypted text: {cypher_txt}")
 
 # decryption
+
 cypher_txt = input("Enter yout cypher text: ")
 plain_txt = ""
 
