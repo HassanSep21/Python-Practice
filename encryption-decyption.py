@@ -7,9 +7,6 @@ char = list(char)
 key = char.copy()
 random.shuffle(key)
 
-# print(f"char: {char}")
-# print(f"key : {key}")
-
 # encyption
 plain_txt = input("Enter yout text: ")
 cypher_txt = ""
